@@ -5,15 +5,25 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 	color: #fff;
 	background-color: #000;
+	line-height: 120%;
+	padding: 15px;
 }
+li {
+	font-size: medium;
+}
+p {
+	font-size: medium;
+}
+
+/*-- Logo --*/
 
 /*-- Navigation --*/
 a:link {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #FFF;
 }
 a:visited {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #FFF;
 }
 a:hover {
@@ -23,4 +33,14 @@ a:hover {
 a:active {
 	text-decoration: none;
 	color: #FFF;
+}
+
+/*-- Header --*/
+#header {
+	text-align: center;
+}
+
+/*-- Footer --*/
+#footer {
+	text-align: center;
 }
