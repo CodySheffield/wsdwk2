@@ -24,50 +24,33 @@ p {
 li {
 	font-size: medium;
 }
-
 /*-- Logo --*/
 #logo {
 	text-align: center;
 }
-
 /*-- Navigation --*/
-#navigation {
-	width: 100%;
-	float: left;
-	margin: 0 0 3em 0;
-	padding: 0;
-}
 #navigation ul {
 	list-style-type: none;
 }
-#navigation li {
-	float: left;
-}
-
 a:link {
-	text-decoration: underline;
 	color: #FFF;
 }
 a:visited {
-	text-decoration: underline;
 	color: #FFF;
 }
 a:hover {
-	text-decoration: underline;
 	color: #6CF;
 }
 a:active {
 	text-decoration: none;
 	color: #FFF;
 }
-
 /*-- Header --*/
 
 /*-- Footer --*/
 #footer {
 	text-align: center;
 }
-
 /*--- Page Specific  ---*/
 
 /*-- Home --*/
