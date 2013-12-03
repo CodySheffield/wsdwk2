@@ -36,11 +36,20 @@ a:active {
 }
 
 /*-- Header --*/
-#header {
-	text-align: center;
-}
 
 /*-- Footer --*/
 #footer {
+	text-align: center;
+}
+
+/*-- Page Specific --*/
+/*-- Biography --*/
+#portrait {
+	text-align: center;
+}
+#title-story {
+	text-align: center;
+}
+#title-corporation {
 	text-align: center;
 }
