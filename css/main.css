@@ -8,10 +8,16 @@ body {
 	line-height: 120%;
 	padding: 15px;
 }
-li {
+h1 {
+	font-size: x-large;
+}
+h2 {
 	font-size: medium;
 }
 p {
+	font-size: medium;
+}
+li {
 	font-size: medium;
 }
 
@@ -54,6 +60,9 @@ a:active {
 	text-align: center;
 }
 #title-corporation {
+	text-align: center;
+}
+#title-gallery {
 	text-align: center;
 }
 /*-- Resources --*/
