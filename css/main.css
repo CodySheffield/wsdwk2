@@ -42,8 +42,11 @@ a:active {
 	text-align: center;
 }
 
-/*-- Page Specific --*/
-/*-- Biography --*/
+/*--- Page Specific  ---*/
+
+/*-- Home --*/
+/*-- Blog --*/
+/*-- Story --*/
 #portrait {
 	text-align: center;
 }
@@ -53,3 +56,5 @@ a:active {
 #title-corporation {
 	text-align: center;
 }
+/*-- Resources --*/
+/*-- Contact --*/
