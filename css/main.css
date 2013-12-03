@@ -31,6 +31,19 @@ li {
 }
 
 /*-- Navigation --*/
+#navigation {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+}
+#navigation ul {
+	list-style-type: none;
+}
+#navigation li {
+	float: left;
+}
+
 a:link {
 	text-decoration: underline;
 	color: #FFF;
