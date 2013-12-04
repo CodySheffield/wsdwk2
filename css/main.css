@@ -4,7 +4,7 @@ body {
 	color: #fff;
 	line-height: 120%;
 	padding: 15px;
-	width: 800px;
+	width: 770px;
 	margin: 0 auto;
 	background-color: #000;
 	background-image: url("../images/bg_planet.jpg");
@@ -38,17 +38,18 @@ h4 {
 /*---- Begin Header ----*/
 /*-- Logo --*/
 #logo {
+	/* !-Find out how to keep background from going under logo-! */
 	text-align: center;
 }
 /*-- Navigation --*/
 #navigation ul {
-	width: 500px;
+	width: 600px;
 	margin: 0 auto;
 	list-style-type: none;
 	padding: 0;
 }
 #navigation ul li {
-	width: 100px;
+	width: 120px;
 	float: left;
 	background-color: #666;
 	background: rgb(100, 100, 100); /* Fall-back for browsers that don't support rgba */
@@ -112,7 +113,7 @@ a:active {
 	text-align: center;
 }
 #corporation p {
-	/* Would look alot better if it were only 2 columns! */
+	/* !-Would look alot better if it were only 2 columns-! */
 	text-align: justify;
 	background-color: #fff;
 	background: rgb(100, 100, 100); /* Fall-back for browsers that don't support rgba */
@@ -127,8 +128,29 @@ a:active {
 #title-gallery {
 	text-align: center;
 }
+#gallery {
+	text-align: center;
+}
 #gallery ul {
+	/* !-Find out how to center gallery with page-! */
+	/* !-Find out how to get rid of 'bars' when hovering over an image-! */
 	list-style-type: none;
+	width: 770px;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 5px;
+}
+#gallery li {
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#gallery a {
+	border: 10px solid #fff;
+	display: block;
+	outline: 0;
 }
 /*-- Resources --*/
 
