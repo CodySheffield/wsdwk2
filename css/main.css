@@ -113,7 +113,6 @@ a:active {
 }
 #corporation p {
 	/* Would look alot better if it were only 2 columns! */
-	font-family: 'Gruppo';
 	text-align: justify;
 	background-color: #fff;
 	background: rgb(100, 100, 100); /* Fall-back for browsers that don't support rgba */
@@ -128,7 +127,9 @@ a:active {
 #title-gallery {
 	text-align: center;
 }
-
+#gallery ul {
+	list-style-type: none;
+}
 /*-- Resources --*/
 
 /*-- Contact --*/
