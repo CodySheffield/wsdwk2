@@ -13,7 +13,12 @@ body {
 	background-repeat: no-repeat;
 	font-size: medium;
 }
+@font-face {
+	font-family: "EVE Alpha";
+	src: url("../fonts/eve.ttf") format("truetype");
+}
 h1, h2, h3, h4, h5, h6 {
+	font-family: "EVE Alpha";
 	text-shadow: 2px 2px 3px #FFF;
 }
 h1 {
