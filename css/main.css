@@ -51,6 +51,8 @@ h4 {
 	width: 100px;
 	float: left;
 	background-color: #666;
+	background: rgb(100, 100, 100);
+	background: rgba(100, 100, 100, .6);
 	overflow: hidden;
 	font-family: 'Gruppo';
 }
@@ -80,6 +82,9 @@ a:active {
 #footer {
 	text-align: center;
 }
+.disclaimer {
+	font-size: 75%;
+}
 /*---- End Footer ----*/
 
 /*--- Begin Page Specific  ---*/
@@ -95,6 +100,13 @@ a:active {
 }
 #title-story {
 	text-align: center;
+}
+#story p, #corporation p {
+	background-color: #fff;
+	background: rgb(100, 100, 100);
+	background: rgba(100, 100, 100, .5);
+	text-align: justify;
+	text-indent: 0px;
 }
 #title-corporation {
 	text-align: center;
